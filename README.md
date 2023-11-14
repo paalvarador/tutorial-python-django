@@ -1,6 +1,6 @@
-# tutorial-python-django
-
 # Tutorial de Python Django
+
+!(/assets/images/python-django.png)
 
 ## Capítulos
 
@@ -60,7 +60,9 @@ Para crear un proyecto en Django debemos realizar los siguientes pasos:
 | --------------------- | ------------------------------------------------- |
 | pipenv install django | Este comando instala Django en un entorno virtual |
 
-- cd Desktop
-- mkdir storefront
-- cd storefront
-- pipenv install django
+```
+~ cd Desktop
+~ mkdir storefront
+~ cd storefront
+~ pipenv install django
+```
