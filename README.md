@@ -43,3 +43,24 @@
 
 - Opciones para desplegar una aplicación Django
 - Configuración básica de servidores web
+
+## 1. Instalación y Configuración de Django
+
+## 2. Estructura del Proyecto
+
+# Creando el primer proyecto ej Django
+
+Para crear un proyecto en Django debemos realizar los siguientes pasos:
+
+1. Crear una carpeta en cualquier lugar de nuestra computadora. Por ejemplo
+   crearemos una carpeta llamada storefront en el escritorio y luego ejecutamos
+   el comando:
+
+| Comando               | Descripción                                       |
+| --------------------- | ------------------------------------------------- |
+| pipenv install django | Este comando instala Django en un entorno virtual |
+
+- cd Desktop
+- mkdir storefront
+- cd storefront
+- pipenv install django
