@@ -8,6 +8,7 @@
 
 - Guia paso a paso para instalar Django
 - Configuración inicial del proyecto
+- Actvar el entorno virtual del proyecto
 
 2. Estructura del proyecto Django
 
@@ -46,8 +47,6 @@
 
 ## 1. Instalación y Configuración de Django
 
-## 2. Estructura del Proyecto
-
 # Creando el primer proyecto ej Django
 
 Para crear un proyecto en Django debemos realizar los siguientes pasos:
@@ -69,3 +68,47 @@ Para crear un proyecto en Django debemos realizar los siguientes pasos:
 
 Cuando se crear el proyecto con pipenv se crea todo lo necesario para poner el
 proyecto en un entorno virtual.
+
+# Activación del Entorno Virtual
+
+Una vez creado el proyecto debemos activar el entorno virtual donde se encuentra
+el proyecto. Esto lo podemos realzar con el siguiente comando
+
+```
+~ pipenv shell
+```
+
+Una vez activado el entorno virtual, se procede a crear el proyecto con el
+siguiente comando
+
+```
+~ django-admin startproject storeproject .
+```
+
+El punto (.) es usado para que el proyecto se cree en la raiz del proyecto
+
+## 2. Estructura del Proyecto
+
+Una vez creado el proyecto se crea la siguiente estructura
+
+[-] (root folder) STOREFRONT
+[-] (app folder) storefront
+[-] **init**.py
+[-] asgi.py
+[-] settings.py
+[-] urls.py
+[-] wsgi.py
+[-] db.sqlite3
+[-] manage.py
+[-] Pipfile
+[-] Pipfile.lock
+[-] Readme.md
+
+# Ejecutar el proyecto
+
+Una vez que nuestro proyecto se encuentra creado podemos usar el siguiente
+comando para iniciar nuestro servidor de pruebas y ver el funcionamiento
+
+```
+$ python manage.py runservrer
+```
