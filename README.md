@@ -1,6 +1,6 @@
 # Tutorial de Python Django
 
-!(/assets/images/python-django.png)
+!(assets/images/python-django.png)
 
 ## Capítulos
 
