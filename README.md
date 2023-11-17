@@ -91,18 +91,20 @@ El punto (.) es usado para que el proyecto se cree en la raiz del proyecto
 
 Una vez creado el proyecto se crea la siguiente estructura
 
-[-] (root folder) STOREFRONT
-[-] (app folder) storefront
-[-] **init**.py
-[-] asgi.py
-[-] settings.py
-[-] urls.py
-[-] wsgi.py
-[-] db.sqlite3
-[-] manage.py
-[-] Pipfile
-[-] Pipfile.lock
-[-] Readme.md
+```
+[-] STOREFRONT
+   [-] storefront
+      [-] **init**.py
+      [-] asgi.py
+      [-] settings.py
+      [-] urls.py
+      [-] wsgi.py
+   [-] db.sqlite3
+   [-] manage.py
+   [-] Pipfile
+   [-] Pipfile.lock
+   [-] Readme.md
+```
 
 # Ejecutar el proyecto
 
