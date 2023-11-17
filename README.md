@@ -60,10 +60,10 @@ Para crear un proyecto en Django debemos realizar los siguientes pasos:
 | pipenv install django | Este comando instala Django en un entorno virtual |
 
 ```
-~ cd Desktop
-~ mkdir storefront
-~ cd storefront
-~ pipenv install django
+$ cd Desktop
+$ mkdir storefront
+$ cd storefront
+$ pipenv install django
 ```
 
 Cuando se crear el proyecto con pipenv se crea todo lo necesario para poner el
@@ -75,14 +75,14 @@ Una vez creado el proyecto debemos activar el entorno virtual donde se encuentra
 el proyecto. Esto lo podemos realzar con el siguiente comando
 
 ```
-~ pipenv shell
+$ pipenv shell
 ```
 
 Una vez activado el entorno virtual, se procede a crear el proyecto con el
 siguiente comando
 
 ```
-~ django-admin startproject storeproject .
+$ django-admin startproject storeproject .
 ```
 
 El punto (.) es usado para que el proyecto se cree en la raiz del proyecto
