@@ -66,3 +66,6 @@ Para crear un proyecto en Django debemos realizar los siguientes pasos:
 ~ cd storefront
 ~ pipenv install django
 ```
+
+Cuando se crear el proyecto con pipenv se crea todo lo necesario para poner el
+proyecto en un entorno virtual.
